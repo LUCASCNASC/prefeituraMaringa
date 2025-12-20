@@ -1,7 +1,7 @@
 export class MenuInicioPage {
 
-    //clicar no logo MFC Store
-    clickLogoMFCStore() {
-        cy.get('.logo > a > img').click()
+    //clicar no menu Inicio
+    clickInicio() {
+        cy.get('#pv_id_1_0 > .p-menubar-item-content > [data-test="menu-item"]').click()
     }
 }
