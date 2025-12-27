@@ -338,5 +338,4 @@ export class MenuSecretariasPage {
 
         cy.contains('Secretaria de Urbanismo e Habitação')
     }
-
 }

@@ -56,5 +56,4 @@ describe('menus A Cidade', () => {
   it('A Cidade -> Plano Municipal de Turismo 2023/2033', () => {
     menuACidadePage.clickPlanoMunicipalDeTurismo(); // ✅ usa o método da instância
   });
-
 });

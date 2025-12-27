@@ -112,6 +112,4 @@ describe('menus Portais', () => {
   it('Portais -> Urbanismo e Habitação', () => {
     menuPortaisPage.clickUrbanismoHabitação(); // ✅ usa o método da instância
   });
-
-  
 });

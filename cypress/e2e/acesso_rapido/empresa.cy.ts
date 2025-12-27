@@ -13,7 +13,7 @@ describe('acesso rápido Empresa', () => {
     empresaPage.clickSIM();
   });
 
-  it.only('ISS Eletronico', () => {
+  it('ISS Eletronico', () => {
     empresaPage.clickISSEletronico();
   });
 });

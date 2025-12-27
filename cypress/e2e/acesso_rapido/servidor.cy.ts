@@ -24,5 +24,4 @@ describe('acesso rápido Servidor', () => {
   it('Portal do Estagiário', () => {
     servidorPage.clickPortalEstagiario();
   });
-
 });

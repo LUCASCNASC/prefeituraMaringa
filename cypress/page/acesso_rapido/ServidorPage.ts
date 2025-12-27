@@ -28,5 +28,4 @@ export class ServidorPage {
         cy.get('#pv_id_2_tabpanel_1 > [href="https://sisrh.maringa.pr.gov.br:9597/portaldoestagiario/portal/login"]').click()
         cy.url().should('include', 'https://www.maringa.pr.gov.br/')
     }
-
 }
