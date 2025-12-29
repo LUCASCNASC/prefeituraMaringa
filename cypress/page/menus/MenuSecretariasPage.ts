@@ -2,18 +2,18 @@ export class MenuSecretariasPage {
 
     //clicar no menu Secretarias
     clickSecretarias() {
-        cy.get('#pv_id_1_2 > :nth-child(1) > .p-menubar-item-link').click()
+        cy.get('#pv_id_1_2 > :nth-child(1) > .p-menubar-item-link').click();
     }
 
     //clicar no submenu Prefeitos
     clickPrefeitos() {
-        cy.get('#pv_id_1_2_0 > .p-menubar-item-content > [data-test="menu-item"]').click()
+        cy.get('#pv_id_1_2_0 > .p-menubar-item-content > [data-test="menu-item"]').click();
         cy.get('.section-title').should('have.text', 'Prefeitos')
     }
 
     //clicar no submenu Estrutura Organizacional / Organograma
     clickEstruturaOrganizacional() {
-        cy.get('#pv_id_1_2_1 > .p-menubar-item-content > .p-menubar-item-link').click()
+        cy.get('#pv_id_1_2_1 > .p-menubar-item-content > .p-menubar-item-link').click();
         //cy.get('.section-title').should('have.text', 'Prefeitos')
     }
 
@@ -28,7 +28,7 @@ export class MenuSecretariasPage {
     clickGabinetePrefeito() {
         cy.get('li.p-menubar-item[aria-label="Gabinete do Prefeito"][aria-level="3"]')
         .find('a.p-menubar-item-link')
-        .click({force:true})
+        .click({force:true});
 
         cy.contains('Gabinete do Prefeito')
     }
@@ -37,7 +37,7 @@ export class MenuSecretariasPage {
     clickAceleracaoEconomicaTurismo() {
         cy.get('li.p-menubar-item[aria-label="Aceleração Econômica E Turismo"][aria-level="3"]')
         .find('a.p-menubar-item-link')
-        .click({force:true})
+        .click({force:true});
 
         cy.contains('Secretaria Municipal de Aceleração Econômica e Turismo')
     }
@@ -46,7 +46,7 @@ export class MenuSecretariasPage {
     clickAeroporto() {
         cy.get('li.p-menubar-item[aria-label="Aeroporto"][aria-level="3"]')
         .find('a.p-menubar-item-link')
-        .click({force:true})
+        .click({force:true});
 
         cy.contains('Aeroporto')
     }
@@ -55,7 +55,7 @@ export class MenuSecretariasPage {
     clickAgenciaMaringaenseRegulacaoAMR() {
         cy.get('li.p-menubar-item[aria-label="Agência Maringaense de Regulação - AMR"][aria-level="3"]')
         .find('a.p-menubar-item-link')
-        .click({force:true})
+        .click({force:true});
 
         cy.contains('Agência Maringaense de Regulação')
     }
@@ -64,7 +64,7 @@ export class MenuSecretariasPage {
     clickAssistenciaSocial() {
         cy.get('li.p-menubar-item[aria-label="Assistência Social"][aria-level="3"]')
         .find('a.p-menubar-item-link')
-        .click({force:true})
+        .click({force:true});
 
         cy.contains('Secretaria Municipal de Assistência Social')
     }
@@ -73,7 +73,7 @@ export class MenuSecretariasPage {
     clickAssuntosMetropolitanosComunitarios() {
         cy.get('li.p-menubar-item[aria-label="Assuntos Metropolitanos e Comunitários"][aria-level="3"]')
         .find('a.p-menubar-item-link')
-        .click({force:true})
+        .click({force:true});
 
         cy.contains('Secretaria de Assuntos Metropolitanos')
     }
@@ -82,7 +82,7 @@ export class MenuSecretariasPage {
     clickChefiaGabinete() {
         cy.get('li.p-menubar-item[aria-label="Chefia de Gabinete"][aria-level="3"]')
         .find('a.p-menubar-item-link')
-        .click({force:true})
+        .click({force:true});
 
         cy.contains('Chefia de Gabinete do Prefeito')
     }
@@ -91,7 +91,7 @@ export class MenuSecretariasPage {
     clickComplianceControle() {
         cy.get('li.p-menubar-item[aria-label="Compliance E Controle"][aria-level="3"]')
         .find('a.p-menubar-item-link')
-        .click({force:true})
+        .click({force:true});
 
         cy.contains('Secretaria de Compliance e Controle')
     }
@@ -100,7 +100,7 @@ export class MenuSecretariasPage {
     clickComunicacao() {
         cy.get('li.p-menubar-item[aria-label="Comunicação"][aria-level="3"]')
         .find('a.p-menubar-item-link')
-        .click({force:true})
+        .click({force:true});
 
         cy.contains('Comunicação')
     }
@@ -109,7 +109,7 @@ export class MenuSecretariasPage {
     clickCriançaAdolescente() {
         cy.get('li.p-menubar-item[aria-label="Criança e do Adolescente"][aria-level="3"]')
         .find('a.p-menubar-item-link')
-        .click({force:true})
+        .click({force:true});
 
         cy.contains('Secretaria da Criança e do Adolescente')
     }
@@ -118,7 +118,7 @@ export class MenuSecretariasPage {
     clickCultura() {
         cy.get('li.p-menubar-item[aria-label="Cultura"][aria-level="3"]')
         .find('a.p-menubar-item-link')
-        .click({force:true})
+        .click({force:true});
 
         cy.contains('Secretaria de Cultura')
     }
@@ -127,7 +127,7 @@ export class MenuSecretariasPage {
     clickEducacao() {
         cy.get('li.p-menubar-item[aria-label="Educação"][aria-level="3"]')
         .find('a.p-menubar-item-link')
-        .click({force:true})
+        .click({force:true});
 
         cy.contains('Secretaria de Educação')
     }
@@ -136,7 +136,7 @@ export class MenuSecretariasPage {
     clickEsportesLazer() {
         cy.get('li.p-menubar-item[aria-label="Esportes e Lazer"][aria-level="3"]')
         .find('a.p-menubar-item-link')
-        .click({force:true})
+        .click({force:true});
 
         cy.contains('Secretaria de Esportes e Lazer')
     }
@@ -145,7 +145,7 @@ export class MenuSecretariasPage {
     clickFazenda() {
         cy.get('li.p-menubar-item[aria-label="Fazenda"][aria-level="3"]')
         .find('a.p-menubar-item-link')
-        .click({force:true})
+        .click({force:true});
 
         cy.contains('Secretaria de Fazenda')
     }
@@ -154,7 +154,7 @@ export class MenuSecretariasPage {
     clickGestaoPessoas() {
         cy.get('li.p-menubar-item[aria-label="Gestão De Pessoas"][aria-level="3"]')
         .find('a.p-menubar-item-link')
-        .click({force:true})
+        .click({force:true});
 
         cy.contains('Gestão de Pessoas')
     }
@@ -163,7 +163,7 @@ export class MenuSecretariasPage {
     clickGoverno() {
         cy.get('li.p-menubar-item[aria-label="Governo"][aria-level="3"]')
         .find('a.p-menubar-item-link')
-        .click({force:true})
+        .click({force:true});
 
         cy.contains('Secretaria de Governo')
     }
@@ -172,7 +172,7 @@ export class MenuSecretariasPage {
     clickInfrastrutura() {
         cy.get('li.p-menubar-item[aria-label="Infraestrutura"][aria-level="3"]')
         .find('a.p-menubar-item-link')
-        .click({force:true})
+        .click({force:true});
 
         cy.contains('Secretaria de Infraestrutura')
     }
@@ -181,7 +181,7 @@ export class MenuSecretariasPage {
     clickInstitutoAmbientalMaringa() {
         cy.get('li.p-menubar-item[aria-label="Instituto Ambiental de Maringá"][aria-level="3"]')
         .find('a.p-menubar-item-link')
-        .click({force:true})
+        .click({force:true});
 
         cy.contains('Instituto Ambiental de Maringá')
     }
@@ -190,7 +190,7 @@ export class MenuSecretariasPage {
     clickInstitutoPesquisaPlanejamentoUrbanoMaringa() {
         cy.get('li.p-menubar-item[aria-label="Instituto de Pesquisa E Planejamento Urbano De Maringá - IPPLAM"][aria-level="3"]')
         .find('a.p-menubar-item-link')
-        .click({force:true})
+        .click({force:true});
 
         cy.contains('Instituto de Pesquisa e Planejamento Urbano de Maringá')
     }
@@ -199,7 +199,7 @@ export class MenuSecretariasPage {
     clickJuventudeCidadaniaMigrantes() {
         cy.get('li.p-menubar-item[aria-label="Juventude Cidadania E Migrantes"][aria-level="3"]')
         .find('a.p-menubar-item-link')
-        .click({force:true})
+        .click({force:true});
 
         cy.contains('Secretaria de Juventude, Cidadania e Migrantes')
     }
@@ -208,7 +208,7 @@ export class MenuSecretariasPage {
     clickLimpezaUrbana() {
         cy.get('li.p-menubar-item[aria-label="Limpeza Urbana"][aria-level="3"]')
         .find('a.p-menubar-item-link')
-        .click({force:true})
+        .click({force:true});
 
         cy.contains('Secretaria de Limpeza Urbana')
     }
@@ -217,7 +217,7 @@ export class MenuSecretariasPage {
     clickLogísticaCompras() {
         cy.get('li.p-menubar-item[aria-label="Logística E Compras"][aria-level="3"]')
         .find('a.p-menubar-item-link')
-        .click({force:true})
+        .click({force:true});
 
         cy.contains('Secretaria Municipal Logística e Compras')
     }
@@ -226,7 +226,7 @@ export class MenuSecretariasPage {
     clickMaringaPrevidencia() {
         cy.get('li.p-menubar-item[aria-label="Maringá Previdência"][aria-level="3"]')
         .find('a.p-menubar-item-link')
-        .click({force:true})
+        .click({force:true});
 
         cy.contains('Maringá Previdência')
     }
@@ -235,7 +235,7 @@ export class MenuSecretariasPage {
     clickMobilidadeUrbana() {
         cy.get('li.p-menubar-item[aria-label="Mobilidade Urbana"][aria-level="3"]')
         .find('a.p-menubar-item-link')
-        .click({force:true})
+        .click({force:true});
 
         cy.contains('Secretaria de Mobilidade Urbana')
     }
@@ -244,7 +244,7 @@ export class MenuSecretariasPage {
     clickObrasPublicas() {
         cy.get('li.p-menubar-item[aria-label="Obras Públicas"][aria-level="3"]')
         .find('a.p-menubar-item-link')
-        .click({force:true})
+        .click({force:true});
 
         cy.contains('Secretaria de Obras Públicas')
     }
@@ -253,7 +253,7 @@ export class MenuSecretariasPage {
     clickPessoaDeficiencia() {
         cy.get('li.p-menubar-item[aria-label="Pessoa com Deficiência"][aria-level="3"]')
         .find('a.p-menubar-item-link')
-        .click({force:true})
+        .click({force:true});
 
         cy.contains('Secretaria da Pessoa com Deficiência')
     }
@@ -262,7 +262,7 @@ export class MenuSecretariasPage {
     clickPoliticasPublicasMulheres() {
         cy.get('li.p-menubar-item[aria-label="Políticas Públicas Para Mulheres"][aria-level="3"]')
         .find('a.p-menubar-item-link')
-        .click({force:true})
+        .click({force:true});
 
         cy.contains('Secretaria de Políticas Públicas para Mulheres')
     }
@@ -271,7 +271,7 @@ export class MenuSecretariasPage {
     clickProcon() {
         cy.get('li.p-menubar-item[aria-label="Procon"][aria-level="3"]')
         .find('a.p-menubar-item-link')
-        .click({force:true})
+        .click({force:true});
 
         cy.contains('Coordenadoria de Proteção e Defesa do Consumidor - Procon')
     }
@@ -280,7 +280,7 @@ export class MenuSecretariasPage {
     clickProcuradoriaGeralMunicipio() {
         cy.get('li.p-menubar-item[aria-label="Procuradoria Geral do Município"][aria-level="3"]')
         .find('a.p-menubar-item-link')
-        .click({force:true})
+        .click({force:true});
 
         cy.contains('Procuradoria-Geral do Município')
     }
@@ -289,7 +289,7 @@ export class MenuSecretariasPage {
     clickProtecaoBemEstarAnimal() {
         cy.get('li.p-menubar-item[aria-label="Proteção E Bem Estar Animal"][aria-level="3"]')
         .find('a.p-menubar-item-link')
-        .click({force:true})
+        .click({force:true});
 
         cy.contains('Secretaria de Proteção e Bem Estar Animal')
     }
@@ -298,7 +298,7 @@ export class MenuSecretariasPage {
     clickSaude() {
         cy.get('li.p-menubar-item[aria-label="Saúde"][aria-level="3"]')
         .find('a.p-menubar-item-link')
-        .click({force:true})
+        .click({force:true});
 
         cy.contains('Secretaria Municipal de Saúde')
     }
@@ -307,7 +307,7 @@ export class MenuSecretariasPage {
     clickSeguranca() {
         cy.get('li.p-menubar-item[aria-label="Segurança"][aria-level="3"]')
         .find('a.p-menubar-item-link')
-        .click({force:true})
+        .click({force:true});
 
         cy.contains('Secretaria de Segurança')
     }
@@ -316,7 +316,7 @@ export class MenuSecretariasPage {
     clickTecnologiaInovacao() {
         cy.get('li.p-menubar-item[aria-label="Tecnologia e Inovação"][aria-level="3"]')
         .find('a.p-menubar-item-link')
-        .click({force:true})
+        .click({force:true});
 
         cy.contains('Agência Maringá de Tecnologia e Inovação')
     }
@@ -325,7 +325,7 @@ export class MenuSecretariasPage {
     clickTrabalhoRendaAgriculturaFamiliar() {
         cy.get('li.p-menubar-item[aria-label="Trabalho, Renda e Agricultura Familiar"][aria-level="3"]')
         .find('a.p-menubar-item-link')
-        .click({force:true})
+        .click({force:true});
 
         cy.contains('Secretaria de Trabalho, Renda e Agricultura Familiar')
     }
@@ -334,7 +334,7 @@ export class MenuSecretariasPage {
     clickUrbanismoHabitação() {
         cy.get('li.p-menubar-item[aria-label="Urbanismo e Habitação"][aria-level="3"]')
         .find('a.p-menubar-item-link')
-        .click({force:true})
+        .click({force:true});
 
         cy.contains('Secretaria de Urbanismo e Habitação')
     }
