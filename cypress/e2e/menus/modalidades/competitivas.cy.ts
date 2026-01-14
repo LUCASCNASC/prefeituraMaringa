@@ -1,7 +1,7 @@
 import { CompetitivasPage } from '../../../page/menus/modalidades/CompetitivasPage';
 import { MenuModalidadesPage } from '../../../page/menus/modalidades/MenuModalidadesPage';
 
-describe('menu futebol feminino', () => {
+describe('menu Modalidades -> Competivivas', () => {
 
   const competitivasPage = new CompetitivasPage(); // ✅ cria instância
   const menuModalidadesPage = new MenuModalidadesPage(); // ✅ cria instância
@@ -92,20 +92,23 @@ describe('menu futebol feminino', () => {
     competitivasPage.validateRemo();
   });
 
-  it.only('Skate', () => {
+  it('Skate', () => {
     competitivasPage.clickSkate();
     competitivasPage.validateSkate();
   });
 
   it('Surf', () => {
-    
+    competitivasPage.clickSurf();
+    competitivasPage.validateSurf();
   });
 
   it('Vôlei', () => {
-    
+    competitivasPage.clickVolei();
+    competitivasPage.validateVolei();
   });
 
   it('Xadrez', () => {
-    
+    competitivasPage.clickXadrez();
+    competitivasPage.validateXadrez();
   });
 });

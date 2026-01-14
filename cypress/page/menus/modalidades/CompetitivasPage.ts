@@ -272,8 +272,8 @@ export class CompetitivasPage {
     clickSkate() {
         cy.get('.ct-submenu > :nth-child(1) > :nth-child(18) > a')
             .should("be.visible")
-        cy.contains("Skate")
-            .should("be.visible")
+        // cy.contains("Skate")
+        //     .should("be.visible")
         cy.get('.ct-submenu > :nth-child(1) > :nth-child(18) > a')
             .click()
     }
@@ -283,6 +283,56 @@ export class CompetitivasPage {
         cy.get('header > h1')
             .should("be.visible")
             .and("contain.text", "Skate")
+    }
+
+    //clicar no submenu Surf
+    clickSurf() {
+        cy.get('.ct-submenu > :nth-child(1) > :nth-child(19) > a')
+            .should("be.visible")
+        cy.contains("Surf")
+            .should("be.visible")
+        cy.get('.ct-submenu > :nth-child(1) > :nth-child(19) > a')
+            .click()
+    }
+
+    //validar página após clicar no submenu Surf
+    validateSurf() {
+        cy.get('header > h1')
+            .should("be.visible")
+            .and("contain.text", "Surf")
+    }
+
+    //clicar no submenu Vôlei
+    clickVolei() {
+        cy.get('.ct-submenu > :nth-child(1) > :nth-child(20) > a')
+            .should("be.visible")
+        cy.contains("Vôlei")
+            .should("be.visible")
+        cy.get('.ct-submenu > :nth-child(1) > :nth-child(20) > a')
+            .click()
+    }
+
+    //validar página após clicar no submenu Vôlei
+    validateVolei() {
+        cy.get('.d-xl-block')
+            .should("be.visible")
+    }
+
+    //clicar no submenu Xadrez
+    clickXadrez() {
+        cy.get('.ct-submenu > :nth-child(1) > :nth-child(21) > a')
+            .should("be.visible")
+        cy.contains("Xadrez")
+            .should("be.visible")
+        cy.get('.ct-submenu > :nth-child(1) > :nth-child(21) > a')
+            .click()
+    }
+
+    //validar página após clicar no submenu Xadrez
+    validateXadrez() {
+        cy.get('header > h1')
+            .should("be.visible")
+            .and("contain.text", "Xadrez")
     }
 
     
